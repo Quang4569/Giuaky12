@@ -85,6 +85,7 @@ production:
     database: mysite_production
     username: mysite
     password: <%= ENV["MYSITE_DATABASE_PASSWORD"] %>
+    
   cache:
     <<: *primary_production
     database: mysite_production_cache
